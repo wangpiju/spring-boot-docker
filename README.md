@@ -14,8 +14,8 @@
 
 `docker container ls` 
 
-#### link to container inside shell
+#### Link to container inside shell
 
 `docker run -ti --entrypoint /bin/sh <your tag name>`
 
-#### Brothers, if you still have any problems, Jess is always free for you 
+#### Guys, if you still have any problems, Jess is always free for you  :)))
