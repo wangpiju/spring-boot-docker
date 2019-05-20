@@ -1,20 +1,21 @@
-#### 每個應用記得端口要改否則會衝突
+#### Every Single Application should use their owned port
 
-#### docker打包image，也可以直接使用IDE 內建的plugin
+#### Docker build image, you can the IDE bundled Plugin to build also, up to you 
 
 `docker build -t <your tag name> .`
 
-#### 執行並設置端口連接, -d是背景執行
+#### Docke run and set the port to connect host port , -d is daemon running
 
-`docker run -d -p 8080:8080 myorg/myapp`
+`docker run -d -p 8080:8080 <your tag name>`
 
-#### 查看image, container status
+#### Check images and containers status
 
 `docker image ls` 
 
 `docker container ls` 
 
-#### 進入容器
+#### link to container inside shell
 
 `docker run -ti --entrypoint /bin/sh <your tag name>`
 
+#### Brothers, if you still have any problems, Jess is always free for you 
